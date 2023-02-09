@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	@apply font-rubik;
+}
+.top-tick {
+	-webkit-mask: radial-gradient(
+			circle 10px at top right,
+			transparent 0,
+			transparent 20px,
+			black 21px
+		),
+		radial-gradient(
+			circle 10px at top left,
+			transparent 0,
+			transparent 20px,
+			black 21px
+		);
+	-webkit-mask-composite: destination-in;
+}
+.bottom-tick {
+	-webkit-mask: radial-gradient(
+			circle 10px at bottom left,
+			transparent 0,
+			transparent 20px,
+			black 21px
+		),
+		radial-gradient(
+			circle 10px at bottom right,
+			transparent 0,
+			transparent 20px,
+			black 21px
+		);
+	-webkit-mask-composite: destination-in;
+}
+.both-ticks {
+	-webkit-mask: radial-gradient(
+			circle 10px at bottom left,
+			transparent 0,
+			transparent 20px,
+			black 21px
+		),
+		radial-gradient(
+			circle 10px at bottom right,
+			transparent 0,
+			transparent 20px,
+			black 21px
+		),
+		radial-gradient(
+			circle 10px at top left,
+			transparent 0,
+			transparent 20px,
+			black 21px
+		),
+		radial-gradient(
+			circle 10px at top right,
+			transparent 0,
+			transparent 20px,
+			black 21px
+		);
+	-webkit-mask-composite: destination-in;
+}
+p {
+	@apply font-bold;
+}
+h1 {
+	@apply font-bold text-4xl;
+}
+h4 {
+	@apply text-sm text-gray-600;
+}
