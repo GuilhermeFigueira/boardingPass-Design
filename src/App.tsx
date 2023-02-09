@@ -26,6 +26,16 @@ function App() {
 					Qualquer problema procure o balcão de atendimento da sua
 					companhia aérea
 				</div>
+				<div className=" text-green-300 font-bold">
+					Feito por{" "}
+					<a
+						href="https://github.com/guilhermefigueira"
+						target="_blank"
+						className="underline"
+					>
+						Guilherme Figueira
+					</a>
+				</div>
 			</div>
 		</div>
 	);
