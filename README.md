@@ -2,6 +2,7 @@
 # Design de Cartão de embarque
 
 Desafio #boraCodar da Rocketseat
+<https://boarding-pass-design.vercel.app>
 
 ## Preview
 
